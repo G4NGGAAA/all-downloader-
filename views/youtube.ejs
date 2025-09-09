@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= pageTitle %></title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="container">
+            <div class="logo-container">
+                <img src="/images/logo.png" alt="Logo" class="logo">
+                <a href="/" class="brand">Downloader Serbaguna</a>
+            </div>
+            <nav>
+                <a href="/tiktok">TikTok</a>
+                <a href="/youtube" class="active">YouTube</a>
+                <a href="/instagram">Instagram</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container downloader-page">
+        <h2>YouTube Video Downloader</h2>
+        <p>Tempelkan URL video YouTube di bawah ini.</p>
+        <form action="/download-youtube" method="POST">
+            <input type="text" name="url" placeholder="Contoh: https://www.youtube.com/watch?v=..." required>
+            <button type="submit" class="btn btn-youtube">Unduh Video</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>Dibuat oleh **[Nama Kreator Anda]**</p>
+    </footer>
+</body>
+</html>
