@@ -1,0 +1,19 @@
+{
+  "name": "downloader-website",
+  "version": "1.0.0",
+  "description": "Sebuah website downloader serbaguna untuk TikTok, YouTube, dan Instagram.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "[Nama Anda]",
+  "license": "ISC",
+  "dependencies": {
+    "@bochilteam/scraper": "^4.2.4",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "ytdl-core": "^4.11.5"
+  }
+}
